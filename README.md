@@ -1,5 +1,5 @@
-# <samp><u>🎨 PORTAFOLIO DIGITAL DE APRENDIZAJE</u></samp>
-## <samp>✨ Teoría de la Programación — Unidad 1</samp>
+# 🎨 <samp><u>PORTAFOLIO DIGITAL DE APRENDIZAJE</u></samp>
+## ⚡ <samp>Teoría de la Programación — Unidad 1</samp>
 
 ---
 
@@ -18,7 +18,7 @@
 
 ---
 
-# 📂 <kbd>&nbsp;Contenidos Teóricos&nbsp;</kbd>
+## 📂 <samp>Contenidos Teóricos</samp>
 
 ```🔍 1. Algoritmo
 Un algoritmo es una secuencia finita, ordenada y bien definida de pasos lógicos 
