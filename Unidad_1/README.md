@@ -1,5 +1,7 @@
 # 📘 Unidad 1: Algoritmos y Estructuras Secuenciales
 
+🔗 [« Volver al Inicio del Portafolio](../README.md)
+
 ## 🎯 Objetivo de la Unidad
 Registrar y organizar de manera sistemática las actividades de aprendizaje de la Unidad 1, consolidando los conocimientos sobre el ciclo de vida de un algoritmo y la implementación de soluciones mediante estructuras secuenciales.
 
