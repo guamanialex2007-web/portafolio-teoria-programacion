@@ -1,5 +1,5 @@
 # 📗 Unidad 2: Estructuras Condicionales y Repetitivas
-
+🔗 [« Volver al Inicio del Portafolio](../README.md)
 ## 🎯 Objetivo de la Unidad
 Registrar, organizar y consolidar las actividades de aprendizaje de la Unidad 2, integrando evidencias técnicas y reflexiones críticas sobre la lógica de control de flujo en la resolución de problemas lógicos y computacionales.
 
@@ -70,3 +70,5 @@ for i in range(1, n + 1):
         aprobados += 1
 
 print(f"El total de estudiantes aprobados es: {aprobados}")
+
+
