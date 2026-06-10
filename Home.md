@@ -13,8 +13,8 @@
 | **Asignatura** | Teoría de la Programación |
 | **Ciclo** | Primer Ciclo |
 | **Período Académico** | Abril – Agosto 2026 |
-| **Estudiante** | Alex Guamaní |
-| **Docente** | [Nombre de tu Docente] |
+| **Estudiante** | Alexander Ventura Guaman Puli |
+| **Docente** |LOPEZ FAICAN LISSETTE GEOCONDA |
 
 ---
 
