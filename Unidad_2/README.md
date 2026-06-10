@@ -27,9 +27,13 @@ Enfoque y Representación
 
 
  **Código Estructural (C)** 
- 
- `if (condicion) {`<br>`    // Instrucciones si es verdadero`<br>`} else {`<br>`    // Instrucciones si es falso`<br>`}` 
-
+ ```c
+if (condicion) {
+    // Instrucciones si es verdadero
+} else {
+    // Instrucciones si es falso
+}
+```
 #### B. Condicional Múltiple (Switch)
 Enfoque y Representación 
 
@@ -38,7 +42,17 @@ Enfoque y Representación
 
  **Código Estructural (C)** 
  
- `switch (variable) {`<br>`    case 1:`<br>`        Instrucciones_1;`<br>`        break;`<br>`    default:`<br>`        Instrucciones_Alternativas;`<br>`}` 
+```c
+switch (variable) {
+
+    case 1:
+        instrucciones_1;
+        break;
+
+    default:
+        instrucciones_alternativas;
+}
+```
 
 ---
 
@@ -61,7 +75,11 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
 
  **Código Estructural (C)** 
  
- `while (condicion) {`<br>`    // Instrucciones a repetir`<br>`}` 
+```c
+while (condicion) {
+    // Instrucciones a repetir
+}
+```
 
 #### B. Estructura `do - while`
  Enfoque y Representación 
@@ -72,7 +90,11 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
  
  **Código Estructural (C)** 
  
- `do {`<br>`    // Instrucciones a repetir`<br>`} while (condicion);` 
+```c
+do {
+    // Instrucciones a repetir
+} while (condicion);
+```
 
 #### C. Estructura `for`
  Enfoque y Representación 
@@ -83,7 +105,11 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
  
  **Código Estructural (C)** 
  
- `for (int i = valor_inicial; i <= valor_final; i++) {`<br>`    // Instrucciones a repetir`<br>`}` 
+```c
+for (int i = valor_inicial; i <= valor_final; i++) {
+    // Instrucciones a repetir
+}
+```
 
 ---
 
