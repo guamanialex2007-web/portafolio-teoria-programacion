@@ -24,13 +24,14 @@ Permiten bifurcar el flujo de ejecución de un programa basándose en el cumplim
 | Enfoque | Representación |
 | :--- | :--- |
 | **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama.md) |
-| **Código Estructural (C)** | <pre>if (condicion) {<br>    // Instrucciones si es verdadero<br>} else {<br>    // Instrucciones si es falso<br>}</pre> |
+| **Código Estructural (C)** | `if (condicion) {`<br>`    // Instrucciones si es verdadero`<br>`} else {`<br>`    // Instrucciones si es falso`<br>`}` |
 
 #### B. Condicional Múltiple (Switch)
 | Enfoque | Representación |
 | :--- | :--- |
 | **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_switch.md) |
-| **Código Estructural (C)** | <pre>switch (variable) {<br>    case 1:<br>        Instrucciones_1;<br>        break;<br>    default:<br>        Instrucciones_Alternativas;<br>}</pre> |
+| **Código Estructural (C)** | `switch (variable) {`<br>`    case 1:`<br>`        Instrucciones_1;`<br>`        break;`<br>`    default:`<br>`        Instrucciones_Alternativas;`<br>`}` |
+
 ---
 
 ## 🔁 2. Estructuras Repetitivas (Bucles)
@@ -48,26 +49,23 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
 | Enfoque | Representación |
 | :--- | :--- |
 | **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_while.md) |
-| **Código Estructural (C)** | <pre>while (condicion) {<br>    // Instrucciones a repetir<br>}</pre> |
+| **Código Estructural (C)** | `while (condicion) {`<br>`    // Instrucciones a repetir`<br>`}` |
 
 #### B. Estructura `do - while`
 | Enfoque | Representación |
 | :--- | :--- |
 | **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_do_while.md) |
-| **Código Estructural (C)** | <pre>do {<br>    // Instrucciones a repetir<br>} while (condicion);</pre> |
+| **Código Estructural (C)** | `do {`<br>`    // Instrucciones a repetir`<br>`} while (condicion);` |
 
 #### C. Estructura `for`
 | Enfoque | Representación |
 | :--- | :--- |
 | **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_for.md) |
-| **Código Estructural (C)** | <pre>for (int i = valor_inicial; i <= valor_final; i++) {<br>    // Instrucciones a repetir<br>}</pre> |
-
----
+| **Código Estructural (C)** | `for (int i = valor_inicial; i <= valor_final; i++) {`<br>`    // Instrucciones a repetir`<br>`}` |
 
 ---
 
 ## 💻 3. Ejercicio Integrador Práctico
-<img width="785" height="745" alt="image" src="https://github.com/user-attachments/assets/1c5bd0d1-9872-4ceb-9c4b-7c1b4e2a5a71" />
 
 ### 📝 A. Planteamiento del Problema
 Desarrollar un programa en **lenguaje C** que permita procesar las calificaciones finales de un grupo de $N$ estudiantes en la asignatura de Teoría de la Programación. El programa debe solicitar la cantidad total de alumnos, pedir secuencialmente la nota de cada uno, validar mediante una estructura condicional si el estudiante está "Aprobado" (nota mayor o igual a 7.0) o "Reprobado", y al finalizar desplegar el promedio general del aula junto al total de alumnos aprobados.
@@ -82,10 +80,11 @@ Desarrollar un programa en **lenguaje C** que permita procesar las calificacione
   * Implementar un bucle repetitivo `for` controlado por `i` desde 1 hasta `n`.
   * **Ecuación del Promedio (Calculada dinámicamente en la salida):**
     $$Promedio = \frac{suma}{n}$$
+## 💻 3. Codigo fuente 
+<img width="785" height="745" alt="image" src="https://github.com/user-attachments/assets/1c5bd0d1-9872-4ceb-9c4b-7c1b4e2a5a71" />
 
 ### 📊 C. Evidencia de la Prueba de Escritorio
 <img width="655" height="669" alt="image" src="https://github.com/user-attachments/assets/9386aa20-92bd-4683-9c97-14be2944a014" />
-
 
 ### 📐 D. Diseño del Algoritmo (Diagrama de Flujo)
 Para cumplir con el criterio de creatividad y elementos visuales de la rúbrica, representamos el flujo lógico del programa utilizando componentes nativos de **Mermaid**:
@@ -97,15 +96,18 @@ graph TD
     ReadN --> LoopInit[i = 1]
     
     LoopInit --> LoopCond{¿i <= n?}
+    
     LoopCond -- Sí --> ReadNota[/Leer nota/]
     ReadNota --> CheckCond{¿nota >= 7.0?}
     
     CheckCond -- Sí --> IncAprobados[aprobados++]
-    CheckCond -- No --> Accumulate[suma += nota]
-    IncAprobados --> Accumulate
+    CheckCond -- No --> SumaNota[suma += nota]
     
-    Accumulate --> NextIter[i++]
+    IncAprobados --> SumaNota
+    SumaNota --> NextIter[i++]
+    
     NextIter --> LoopCond
     
-    LoopCond -- No --> PrintResults[/Mostrar promedio: suma / n <br> Mostrar Aprobados: aprobados/]
+    LoopCond -- No --> CalcProm[promedio = suma / n]
+    CalcProm --> PrintResults[/Mostrar promedio y aprobados/]
     PrintResults --> End([Fin])
