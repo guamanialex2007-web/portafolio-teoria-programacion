@@ -1,6 +1,6 @@
 # 📗 Unidad 2: Estructuras Condicionales y Repetitivas
 
-🔗 [« Volver al Inicio del Portafolio](../README.md)
+🔗 [« Volver al Inicio del Portafolio](../README.md) | 📚 [Ver Referencias de la Unidad](./referencias.md)
 
 ---
 
