@@ -77,3 +77,29 @@ Desarrollar un programa en **lenguaje C** que permita procesar las calificacione
 * **Proceso Requerido:**
   * Inicializar el acumulador de notas de tipo flotante `suma_notas = 0.0` y el contador de aprobados `aprobados = 0`.
   * Implementar un bucle repetitivo `for` controlado por una variable contador `i` desde $1$ hasta `n`.
+  * **Ecuación del Promedio:**
+    $$Promedio = \frac{\sum_{i=1}^{n} Nota_i}{n}$$
+
+### 📐 C. Diseño del Algoritmo (Diagrama de Flujo)
+
+Para cumplir con el criterio de creatividad y elementos visuales de la rúbrica, representamos el flujo lógico del programa utilizando componentes nativos de **Mermaid**:
+
+```mermaid
+graph TD
+    Start([Inicio]) --> Init[suma_notas = 0.0 <br> aprobados = 0]
+    Init --> ReadN[/Leer n/]
+    ReadN --> LoopInit[i = 1]
+    
+    LoopInit --> LoopCond{¿i <= n?}
+    LoopCond -- Sí --> ReadNota[/Leer nota/]
+    ReadNota --> Accumulate[suma_notas = suma_notas + nota]
+    
+    Accumulate --> CheckCond{¿nota >= 7.0?}
+    CheckCond -- Sí --> IncAprobados[aprobados = aprobados + 1]
+    CheckCond -- No --> NextIter[i = i + 1]
+    IncAprobados --> NextIter
+    NextIter --> LoopCond
+    
+    LoopCond -- No --> CalcProm[promedio = suma_notas / n]
+    CalcProm --> PrintResults[/Mostrar promedio y aprobados/]
+    PrintResults --> End([Fin])
