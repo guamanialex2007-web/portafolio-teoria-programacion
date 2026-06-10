@@ -21,16 +21,24 @@ Permiten bifurcar el flujo de ejecución de un programa basándose en el cumplim
 ### 📐 Representación Estructural y Sintaxis
 
 #### A. Condicional Simple y Compuesta
-| Enfoque | Representación |
-| :--- | :--- |
-| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama.md) |
-| **Código Estructural (C)** | `if (condicion) {`<br>`    // Instrucciones si es verdadero`<br>`} else {`<br>`    // Instrucciones si es falso`<br>`}` |
+Enfoque y Representación 
+
+**Diagrama de Flujo**  🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama.md)
+
+
+ **Código Estructural (C)** 
+ 
+ `if (condicion) {`<br>`    // Instrucciones si es verdadero`<br>`} else {`<br>`    // Instrucciones si es falso`<br>`}` 
 
 #### B. Condicional Múltiple (Switch)
-| Enfoque | Representación |
-| :--- | :--- |
-| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_switch.md) |
-| **Código Estructural (C)** | `switch (variable) {`<br>`    case 1:`<br>`        Instrucciones_1;`<br>`        break;`<br>`    default:`<br>`        Instrucciones_Alternativas;`<br>`}` |
+Enfoque y Representación 
+
+**Diagrama de Flujo** 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_switch.md) 
+
+
+ **Código Estructural (C)** 
+ 
+ `switch (variable) {`<br>`    case 1:`<br>`        Instrucciones_1;`<br>`        break;`<br>`    default:`<br>`        Instrucciones_Alternativas;`<br>`}` 
 
 ---
 
@@ -46,22 +54,36 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
 ### 📐 Representación Estructural y Sintaxis
 
 #### A. Estructura `while`
-| Enfoque | Representación |
-| :--- | :--- |
-| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_while.md) |
-| **Código Estructural (C)** | `while (condicion) {`<br>`    // Instrucciones a repetir`<br>`}` |
+ Enfoque y Representación 
+
+ **Diagrama de Flujo**  🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_while.md) 
+ 
+
+ **Código Estructural (C)** 
+ 
+ `while (condicion) {`<br>`    // Instrucciones a repetir`<br>`}` 
 
 #### B. Estructura `do - while`
-| Enfoque | Representación |
-| :--- | :--- |
-| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_do_while.md) |
-| **Código Estructural (C)** | `do {`<br>`    // Instrucciones a repetir`<br>`} while (condicion);` |
+ Enfoque y Representación 
+
+
+ **Diagrama de Flujo**  🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_do_while.md) 
+ 
+ 
+ **Código Estructural (C)** 
+ 
+ `do {`<br>`    // Instrucciones a repetir`<br>`} while (condicion);` 
 
 #### C. Estructura `for`
-| Enfoque | Representación |
-| :--- | :--- |
-| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_for.md) |
-| **Código Estructural (C)** | `for (int i = valor_inicial; i <= valor_final; i++) {`<br>`    // Instrucciones a repetir`<br>`}` |
+ Enfoque y Representación 
+
+
+ **Diagrama de Flujo**  🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_for.md) 
+
+ 
+ **Código Estructural (C)** 
+ 
+ `for (int i = valor_inicial; i <= valor_final; i++) {`<br>`    // Instrucciones a repetir`<br>`}` 
 
 ---
 
@@ -89,25 +111,5 @@ Desarrollar un programa en **lenguaje C** que permita procesar las calificacione
 ### 📐 D. Diseño del Algoritmo (Diagrama de Flujo)
 Para cumplir con el criterio de creatividad y elementos visuales de la rúbrica, representamos el flujo lógico del programa utilizando componentes nativos de **Mermaid**:
 
-```mermaid
-graph TD
-    Start([Inicio]) --> Init[suma = 0.0 <br> aprobados = 0]
-    Init --> ReadN[/Leer n/]
-    ReadN --> LoopInit[i = 1]
-    
-    LoopInit --> LoopCond{¿i <= n?}
-    
-    LoopCond -- Sí --> ReadNota[/Leer nota/]
-    ReadNota --> CheckCond{¿nota >= 7.0?}
-    
-    CheckCond -- Sí --> IncAprobados[aprobados++]
-    CheckCond -- No --> SumaNota[suma += nota]
-    
-    IncAprobados --> SumaNota
-    SumaNota --> NextIter[i++]
-    
-    NextIter --> LoopCond
-    
-    LoopCond -- No --> CalcProm[promedio = suma / n]
-    CalcProm --> PrintResults[/Mostrar promedio y aprobados/]
-    PrintResults --> End([Fin])
+
+<img width="460" height="829" alt="image" src="https://github.com/user-attachments/assets/8cd75579-bf46-4b02-b198-022b4449e090" />
