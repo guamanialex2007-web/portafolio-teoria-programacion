@@ -2,6 +2,8 @@
 
 🔗 [« Volver al Inicio del Portafolio](../README.md)
 
+---
+
 ## 🎯 Objetivo de la Unidad
 Registrar y organizar de manera sistemática las actividades de aprendizaje de la Unidad 1, consolidando los conocimientos sobre el ciclo de vida de un algoritmo y la implementación de soluciones mediante estructuras secuenciales.
 
@@ -18,21 +20,33 @@ Registrar y organizar de manera sistemática las actividades de aprendizaje de l
 
 ### 🧱 Programación por Bloques
 Es un enfoque visual de aprendizaje de la computación que permite diseñar lógica de programación arrastrando y soltando piezas o "bloques" gráficos en un lienzo interactivo (como en Scratch o App Inventor). Elimina las barreras de la sintaxis estricta y los errores de punto y coma, permitiendo al estudiante enfocarse exclusivamente en el desarrollo de la lógica algorítmica fundamental.
+<img width="783" height="517" alt="image" src="https://github.com/user-attachments/assets/d723ac31-8234-4b76-8b0c-c8293e8d88dc" />
 
 ---
 
 ## 💻 2. Ejercicio Práctico con Estructura Secuencial
 *(Evidencia de Aplicación Práctica)*
+<img width="1053" height="726" alt="image" src="https://github.com/user-attachments/assets/ca39ed19-e538-44c5-a395-f13d1e7561f2" />
 
 ### 📝 A. Planteamiento del Problema
-*Escribe aquí el enunciado exacto de la tarea o ejercicio secuencial asignado en clase por tu profesor (Por ejemplo: "Calcular el área de un triángulo" o "Convertir unidades métricas").*
+Dado un triángulo, calcular su área conociendo la longitud de su base y su altura. El programa debe solicitar ambos valores al usuario, aplicar la fórmula matemática correspondiente y mostrar el resultado.
 
 ### 🔍 B. Análisis del Problema
-* **Datos de Entrada:** [Identifica las variables requeridas. Ej: `base`, `altura`]
-* **Proceso Requerido:** [Fórmulas o pasos matemáticos secuenciales. Ej: $Area = \frac{base \times altura}{2}$]
-* **Datos de Salida:** [Resultados finales esperados. Ej: `area_total`]
+* **Datos de Entrada:**
+  * Variable numérica real: `base` (longitud horizontal del triángulo).
+  * Variable numérica real: `altura` (distancia vertical desde la base al vértice opuesto).
+* **Proceso Requerido:**
+  * Aplicación lineal de la fórmula geométrica del área:
+    $$area = \frac{base \times altura}{2}$$
+* **Datos de Salida:**
+  * Variable numérica real: `area` (superficie total calculada).
+
+---
 
 ### 📐 C. Diseño del Algoritmo
+
+#### 📊 Diagrama de Flujo (Exportado de PSeInt)
+<img width="693" height="859" alt="Diagrama de Flujo del Algoritmo Secuencial" src="https://github.com/user-attachments/assets/aabf8c3b-83da-4d70-8efd-77bde453661c" />
 
 #### 📝 Pseudocódigo (PSeInt / Estándar)
 ```text
