@@ -135,7 +135,7 @@ Desarrollar un programa en **lenguaje C** que permita procesar las calificacione
 <img width="655" height="669" alt="image" src="https://github.com/user-attachments/assets/9386aa20-92bd-4683-9c97-14be2944a014" />
 
 ### 📐 D. Diseño del Algoritmo (Diagrama de Flujo)
-Para cumplir con el criterio de creatividad y elementos visuales de la rúbrica, representamos el flujo lógico del programa utilizando componentes nativos de **Mermaid**:
+
 
 
 <img width="460" height="829" alt="image" src="https://github.com/user-attachments/assets/8cd75579-bf46-4b02-b198-022b4449e090" />
