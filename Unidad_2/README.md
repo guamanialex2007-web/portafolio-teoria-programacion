@@ -23,7 +23,7 @@ Permiten bifurcar el flujo de ejecución de un programa basándose en el cumplim
 #### A. Condicional Simple y Compuesta
 | Enfoque | Representación |
 | :--- | :--- |
-| **Diagrama de Flujo** | *(Sube la captura de tu diagrama conceptual como `condicional_compuesta.png` en tu repositorio)* |
+| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./Unidad_2/imagenes/ver_diagrama.md) |
 | **Código Estructural (C)** | <pre>if (condicion) {<br>    // Instrucciones si es verdadero<br>} else {<br>    // Instrucciones si es falso<br>}</pre> |
 
 #### B. Condicional Múltiple (Switch)
