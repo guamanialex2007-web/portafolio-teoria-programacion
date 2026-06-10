@@ -64,6 +64,8 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
 
 ---
 
+---
+
 ## 💻 3. Ejercicio Integrador Práctico
 <img width="785" height="745" alt="image" src="https://github.com/user-attachments/assets/1c5bd0d1-9872-4ceb-9c4b-7c1b4e2a5a71" />
 
@@ -72,34 +74,38 @@ Desarrollar un programa en **lenguaje C** que permita procesar las calificacione
 
 ### 🔍 B. Análisis del Problema
 * **Datos de Entrada:**
-  * Variable de tipo entero (`int`): `n` (Cantidad total de estudiantes a evaluar).
-  * Variable de tipo flotante (`float`): `nota` (Calificación ingresada cíclicamente en cada iteración).
+  * Variable de tipo entero (`int`): `n` (Número de estudiantes).
+  * Variable de tipo entero (`int`): `i` (Contador interno del bucle).
+  * Variable de tipo flotante (`float`): `nota` (Calificación ingresada cíclicamente).
 * **Proceso Requerido:**
-  * Inicializar el acumulador de notas de tipo flotante `suma_notas = 0.0` y el contador de aprobados `aprobados = 0`.
-  * Implementar un bucle repetitivo `for` controlado por una variable contador `i` desde $1$ hasta `n`.
-  * **Ecuación del Promedio:**
-    $$Promedio = \frac{\sum_{i=1}^{n} Nota_i}{n}$$
+  * Inicializar el acumulador `suma = 0.0` y el contador de aprobados `aprobados = 0`.
+  * Implementar un bucle repetitivo `for` controlado por `i` desde 1 hasta `n`.
+  * **Ecuación del Promedio (Calculada dinámicamente en la salida):**
+    $$Promedio = \frac{suma}{n}$$
 
-### 📐 C. Diseño del Algoritmo (Diagrama de Flujo)
+### 📊 C. Evidencia de la Prueba de Escritorio
+<img width="655" height="669" alt="image" src="https://github.com/user-attachments/assets/9386aa20-92bd-4683-9c97-14be2944a014" />
 
+
+### 📐 D. Diseño del Algoritmo (Diagrama de Flujo)
 Para cumplir con el criterio de creatividad y elementos visuales de la rúbrica, representamos el flujo lógico del programa utilizando componentes nativos de **Mermaid**:
 
 ```mermaid
 graph TD
-    Start([Inicio]) --> Init[suma_notas = 0.0 <br> aprobados = 0]
+    Start([Inicio]) --> Init[suma = 0.0 <br> aprobados = 0]
     Init --> ReadN[/Leer n/]
     ReadN --> LoopInit[i = 1]
     
     LoopInit --> LoopCond{¿i <= n?}
     LoopCond -- Sí --> ReadNota[/Leer nota/]
-    ReadNota --> Accumulate[suma_notas = suma_notas + nota]
+    ReadNota --> CheckCond{¿nota >= 7.0?}
     
-    Accumulate --> CheckCond{¿nota >= 7.0?}
-    CheckCond -- Sí --> IncAprobados[aprobados = aprobados + 1]
-    CheckCond -- No --> NextIter[i = i + 1]
-    IncAprobados --> NextIter
+    CheckCond -- Sí --> IncAprobados[aprobados++]
+    CheckCond -- No --> Accumulate[suma += nota]
+    IncAprobados --> Accumulate
+    
+    Accumulate --> NextIter[i++]
     NextIter --> LoopCond
     
-    LoopCond -- No --> CalcProm[promedio = suma_notas / n]
-    CalcProm --> PrintResults[/Mostrar promedio y aprobados/]
+    LoopCond -- No --> PrintResults[/Mostrar promedio: suma / n <br> Mostrar Aprobados: aprobados/]
     PrintResults --> End([Fin])
