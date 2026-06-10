@@ -47,7 +47,7 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
 #### A. Estructura `while`
 | Enfoque | Representación |
 | :--- | :--- |
-| **Diagrama de Flujo** | *(Sube la captura de tu bucle como `bucle_mientras.png`)* |
+| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_while.md) |
 | **Código Estructural (C)** | <pre>while (condicion) {<br>    // Instrucciones a repetir<br>}</pre> |
 
 #### B. Estructura `do - while`
