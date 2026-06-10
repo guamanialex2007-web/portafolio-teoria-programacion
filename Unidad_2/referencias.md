@@ -1,3 +1,4 @@
+🔗 [« Volver a la Unidad 2](./README.md) | 🏠 [Inicio del Portafolio](../README.md)
 
 ---
 
@@ -16,8 +17,6 @@ De conformidad con los parámetros de evaluación analítica establecidos por la
 ---
 
 ## 📚 2. Bibliografía Especializada (Formato IEEE)
-
-
 
 * **[1]** H. Deitel y P. Deitel, *C How to Program*, 9a ed. Boston, MA, USA: Pearson, 2022. *(Referenciado para la validación sintáctica de las bifurcaciones selectivas y estructuras de control iterativo)*.
 * **[2]** T. H. Cormen, C. E. Leiserson, R. L. Rivest, y C. Stein, *Introduction to Algorithms*, 4a ed. Cambridge, MA, USA: MIT Press, 2022. *(Utilizado en el análisis analítico y diseño gráfico de la diagramación lógica y pruebas de escritorio)*.
