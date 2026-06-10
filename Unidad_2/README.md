@@ -29,9 +29,8 @@ Permiten bifurcar el flujo de ejecución de un programa basándose en el cumplim
 #### B. Condicional Múltiple (Switch)
 | Enfoque | Representación |
 | :--- | :--- |
-| **Diagrama de Flujo** | *(Sube la captura de tu diagrama conceptual como `condicional_multiple.png` en tu repositorio)* |
+| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_switch.md) |
 | **Código Estructural (C)** | <pre>switch (variable) {<br>    case 1:<br>        Instrucciones_1;<br>        break;<br>    default:<br>        Instrucciones_Alternativas;<br>}</pre> |
-
 ---
 
 ## 🔁 2. Estructuras Repetitivas (Bucles)
