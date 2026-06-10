@@ -59,7 +59,7 @@ Estructuras diseñadas para iterar o ejecutar un bloque de instrucciones múltip
 #### C. Estructura `for`
 | Enfoque | Representación |
 | :--- | :--- |
-| **Diagrama de Flujo** | *(Sube la captura de tu bucle como `bucle_para.png`)* |
+| **Diagrama de Flujo** | 🔍 [Clic aquí para ver el Diagrama en Pantalla Completa](./ver_diagrama_for.md) |
 | **Código Estructural (C)** | <pre>for (int i = valor_inicial; i <= valor_final; i++) {<br>    // Instrucciones a repetir<br>}</pre> |
 
 ---
