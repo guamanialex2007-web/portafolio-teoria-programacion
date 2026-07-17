@@ -16,17 +16,4 @@ De conformidad con los parámetros de evaluación analítica establecidos por la
 
 ---
 
-## 📚 2. Bibliografía Especializada (Formato IEEE)
 
-* **[1]** H. Deitel y P. Deitel, *C How to Program*, 9a ed. Boston, MA, USA: Pearson, 2022. *(Referenciado para la validación sintáctica de las bifurcaciones selectivas y estructuras de control iterativo)*.
-* **[2]** T. H. Cormen, C. E. Leiserson, R. L. Rivest, y C. Stein, *Introduction to Algorithms*, 4a ed. Cambridge, MA, USA: MIT Press, 2022. *(Utilizado en el análisis analítico y diseño gráfico de la diagramación lógica y pruebas de escritorio)*.
-* **[3]** R. L. Kruse, *Data Structures and Program Design in C*, 2a ed. Upper Saddle River, NJ, USA: Prentice-Hall, 2021. *(Consultado para la implementación de estándares de indentación, modularidad lógica y buenas prácticas de desarrollo de software)*.
-
----
-
-## 🤖 3. Declaración de Uso de IA Generativa
-
-En cumplimiento directo con las disposiciones normativas de la asignatura de Teoría de la Programación de la UNL, se declara formalmente el uso del modelo asistivo de Inteligencia Artificial **Gemini (Google)** como tutor técnico de acompañamiento personalizado. 
-
-* **Alcance del Soporte:** El modelo se utilizó únicamente con fines de optimización estética y estructural de la sintaxis Markdown (`.md`) para las tablas matriciales de la prueba de escritorio y para verificar la compatibilidad de renderización de los conectores en lenguaje Mermaid.
-* **Validación Intelectual:** La totalidad del análisis del problema, diagramación, codificación nativa en C y cálculos operacionales de las iteraciones matemáticas son el reflejo del trabajo intelectual autónomo, individual y supervisado del estudiante.
