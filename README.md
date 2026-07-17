@@ -31,7 +31,7 @@ Haz clic en cualquiera de los botones de la tabla para acceder directamente a lo
 | :---: | :--- | :---: |
 | **Unidad 1** | **Estructuras Secuenciales**<br>Fundamentos de algoritmos, pseudocódigo, diagramas de flujo y programación por bloques. *(Valor: 40%)* | [📂 Explorar Unidad 1](./Unidad_1/) |
 | **Unidad 2** | **Estructuras Condicionales y Repetitivas**<br>Control de flujo, bifurcaciones, bucles y pruebas de escritorio integradoras. *(Valor: 30%)* | [📂 Explorar Unidad 2](./Unidad_2/) |
-| **Unidad 3** | **Contenidos Finales**<br>Sección reservada para las actividades de cierre del ciclo académico. | [📂 Explorar Unidad 3](.//) |
+| **Unidad 3** | **Contenidos Finales**<br>Sección reservada para las actividades de cierre del ciclo académico. | [📂 Explorar Unidad 3](./Unidad_3/) |
 
 ---
 
