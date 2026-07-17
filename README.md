@@ -31,9 +31,30 @@ Haz clic en cualquiera de los botones de la tabla para acceder directamente a lo
 | :---: | :--- | :---: |
 | **Unidad 1** | **Estructuras Secuenciales**<br>Fundamentos de algoritmos, pseudocódigo, diagramas de flujo y programación por bloques. *(Valor: 40%)* | [📂 Explorar Unidad 1](./Unidad_1/) |
 | **Unidad 2** | **Estructuras Condicionales y Repetitivas**<br>Control de flujo, bifurcaciones, bucles y pruebas de escritorio integradoras. *(Valor: 30%)* | [📂 Explorar Unidad 2](./Unidad_2/) |
-| **Unidad 3** | **Contenidos Finales**<br>Sección reservada para las actividades de cierre del ciclo académico. | [📂 Explorar Unidad 3](./Unidad_3/) |
+| **Unidad 3** | **Modularidad y Arreglos**<br>Funciones, paso de parámetros por valor y referencia, arreglos unidimensionales, bidimensionales y tridimensionales, además de evidencias prácticas y reflexión crítica. *(Valor: 20%)* | [📂 Explorar Unidad 3](./Unidad_3/) |
 
 ---
 
 ## 📋 Declaración de Uso de IA Generativa
-En cumplimiento con las directrices de la Universidad Nacional de Loja, se declara el uso del modelo de Inteligencia Artificial **Gemini (Google)** como tutor de acompañamiento técnico personalizado. Su uso se enfocó exclusivamente en optimizar el formateo estructurado de la sintaxis Markdown (`.md`), la organización visual de las tablas y el soporte de diseño lógico del portafolio.
+
+Para la elaboración de este portafolio se utilizaron herramientas de Inteligencia Artificial Generativa, como Gemini (Google), en calidad de apoyo para reforzar conceptos, mejorar la organización del contenido y optimizar el formato en Markdown. Todo el contenido fue revisado, comprendido y adaptado por el estudiante antes de su entrega.
+
+---
+
+# 📚 Referencias Bibliográficas
+
+Las siguientes fuentes bibliográficas sirvieron como apoyo para el desarrollo de las actividades y la consolidación de los contenidos abordados durante las tres unidades de la asignatura.
+
+**[1]** T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, *Introduction to Algorithms*, 4th ed. Cambridge, MA, USA: MIT Press, 2022.
+
+**[2]** J. G. Brookshear and D. Brylow, *Computer Science: An Overview*, 13th ed. New York, NY, USA: Pearson, 2020.
+
+**[3]** L. Joyanes Aguilar, *Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos*, 6.ª ed. Madrid, España: McGraw-Hill, 2021.
+
+**[4]** B. W. Kernighan and D. M. Ritchie, *The C Programming Language*, 2nd ed. Upper Saddle River, NJ, USA: Prentice Hall.
+
+---
+
+© **2026 – Portafolio Digital de Aprendizaje**  
+**Alexander Ventura Guaman Puli**  
+Carrera de Computación – Universidad Nacional de Loja
