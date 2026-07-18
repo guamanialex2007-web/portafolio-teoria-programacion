@@ -362,36 +362,51 @@ Contenido del arreglo tridimensional:
 
 Suma total: 36
 ```
-<img width="794" height="199" alt="image" src="https://github.com/user-attachments/assets/80c1a279-6b45-4964-9dc0-290192836502" />
+
+### 📷 Evidencia de ejecución
+
+La siguiente imagen muestra la compilación y ejecución correcta del programa en el entorno de desarrollo, verificando el recorrido del arreglo tridimensional y el cálculo de la suma total de sus elementos.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/80c1a279-6b45-4964-9dc0-290192836502" alt="Ejecución del programa con arreglo tridimensional" width="800">
+</p>
 
 ### 📌 Análisis
 
-En esta práctica se implementó un **arreglo tridimensional** de tamaño **2 × 2 × 2**, utilizando **tres ciclos `for` anidados** para recorrer todos sus elementos.
+En esta práctica se implementó un **arreglo tridimensional** de tamaño **2 × 2 × 2**, utilizando tres ciclos `for` anidados para recorrer todos sus elementos.
 
-Además, el programa fue dividido en dos funciones:
+El programa fue organizado mediante dos funciones independientes:
 
-- **`mostrar()`**: se encarga de recorrer y visualizar el contenido del arreglo tridimensional.
+- **`mostrar()`**: recorre y muestra el contenido del arreglo tridimensional.
 - **`sumar()`**: calcula la suma de todos los elementos almacenados en el arreglo.
 
-Esta práctica permitió reforzar el concepto de **modularidad**, ya que las tareas fueron divididas en funciones independientes, y también el manejo de **arreglos tridimensionales**, demostrando cómo recorrer y procesar estructuras de datos con tres dimensiones de manera organizada y eficiente.
+La salida obtenida confirma el correcto funcionamiento del programa, mostrando los ocho valores almacenados en el arreglo y una suma total de **36**.
+
+Esta práctica permitió integrar los dos temas principales de la Unidad 3:
+
+- **Modularidad**, al dividir el programa en funciones con responsabilidades específicas.
+- **Arreglos tridimensionales**, mediante el almacenamiento y procesamiento de datos utilizando tres dimensiones.
+
+Además, se reforzó el uso de ciclos anidados, el envío de arreglos como parámetros a funciones y la organización del código para facilitar su comprensión y mantenimiento.
+
 ---
 
 # 🧠 Principales dificultades
 
-Durante el aprendizaje se presentaron algunas dificultades:
+Durante el desarrollo de la Unidad 3 se presentaron algunas dificultades, entre ellas:
 
-- Comprender la diferencia entre el paso por valor y el paso por referencia.
-- Identificar cuándo utilizar funciones para mejorar la organización del código.
-- Evitar errores de índices fuera del tamaño del arreglo.
-- Manejar correctamente los ciclos anidados en matrices.
+- Comprender la diferencia entre el paso de parámetros por valor y por referencia.
+- Identificar cuándo es conveniente utilizar funciones para modularizar un programa.
+- Evitar errores por índices fuera del rango permitido en los arreglos.
+- Recorrer correctamente arreglos bidimensionales y tridimensionales utilizando ciclos `for` anidados.
+- Comprender cómo enviar arreglos como parámetros a una función sin perder su estructura.
 
 ---
 
 # 💡 Reflexión crítica
 
-La modularidad y los arreglos representan herramientas fundamentales para desarrollar programas más organizados, eficientes y fáciles de mantener. El uso de funciones permite dividir problemas complejos en tareas más pequeñas, mientras que los arreglos facilitan el almacenamiento y procesamiento de grandes cantidades de datos. Estos conocimientos fortalecen las bases de la programación y preparan al estudiante para el estudio de estructuras de datos más avanzadas.
+El estudio de la modularidad y los arreglos permitió comprender la importancia de desarrollar programas organizados, reutilizables y fáciles de mantener. La implementación de funciones favorece la división de problemas complejos en tareas más pequeñas, mientras que el uso de arreglos facilita el almacenamiento y procesamiento eficiente de grandes cantidades de información.
 
-
----
+La práctica realizada con un arreglo tridimensional integró ambos contenidos, demostrando cómo la programación modular mejora la claridad del código y cómo las estructuras de datos permiten representar información de forma ordenada. Estos conocimientos constituyen una base fundamental para el aprendizaje de estructuras de datos y el desarrollo de aplicaciones de mayor complejidad.
 
 ⬅️ [Volver al Portafolio Principal](../README.md)
